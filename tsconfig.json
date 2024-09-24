@@ -6,6 +6,6 @@
     "moduleResolution": "Bundler",
     "target": "ES2022"
   },
-  "include": ["src/**/*", "tests/**/*", "build.config.ts"],
+  "include": ["src/**/*", "tests/**/*", "*.config.ts"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }
