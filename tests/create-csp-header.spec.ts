@@ -11,9 +11,10 @@ it('should create csp header', () => {
     'base-uri': "'self'",
     'child-src': "'self'",
     'script-src': "'self' https://example.com",
+    'upgrade-insecure-requests': ``,
   });
   expect(cspHeader).toEqual(
-    "base-uri 'self'; child-src 'self'; script-src 'self' https://example.com",
+    "base-uri 'self'; child-src 'self'; script-src 'self' https://example.com; upgrade-insecure-requests",
   );
 });
 
@@ -23,13 +24,14 @@ it('should create csp header with header name', () => {
       'base-uri': "'self'",
       'child-src': "'self'",
       'script-src': "'self' https://example.com",
+      'upgrade-insecure-requests': ``,
     },
     {
       includeHeaderName: true,
     },
   );
   expect(cspHeader).toEqual(
-    "Content-Security-Policy: base-uri 'self'; child-src 'self'; script-src 'self' https://example.com",
+    "Content-Security-Policy: base-uri 'self'; child-src 'self'; script-src 'self' https://example.com; upgrade-insecure-requests",
   );
 });
 
@@ -39,6 +41,7 @@ it('should create csp header with presets', () => {
       'base-uri': "'self'",
       'child-src': "'self'",
       'script-src': "'self' https://example.com",
+      'upgrade-insecure-requests': ``,
     },
     {
       presets: [
@@ -57,6 +60,7 @@ it('should create csp header with header name and presets', () => {
       'base-uri': "'self'",
       'child-src': "'self'",
       'script-src': "'self' https://example.com",
+      'upgrade-insecure-requests': ``,
     },
     {
       includeHeaderName: true,
