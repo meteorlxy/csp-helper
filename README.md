@@ -16,6 +16,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Google Tag Manager
   - Hotjar
   - Reddit
+  - TikTok
   - X
   - Youtube
   - ... and more
