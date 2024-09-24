@@ -8,7 +8,7 @@ type ContentSecurityPolicyConfigSet = Partial<
 >;
 
 /**
- * Helper to merge multiple CSP configs to set.
+ * Helper to merge multiple CSP configs to configs set.
  */
 export const mergeCspConfigsToSet = (
   configs: ContentSecurityPolicyConfig[],
