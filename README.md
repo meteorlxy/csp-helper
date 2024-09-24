@@ -15,6 +15,9 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Google Analytics 4
   - Google Tag Manager
   - Hotjar
+  - Reddit
+  - X
+  - Youtube
   - ... and more
 
 ## Installation

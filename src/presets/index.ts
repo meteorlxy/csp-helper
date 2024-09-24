@@ -4,3 +4,6 @@ export * from './google-analytics-4';
 export * from './google-tag-manager';
 export * from './google-universal-analytics';
 export * from './hotjar';
+export * from './reddit';
+export * from './x';
+export * from './youtube';
