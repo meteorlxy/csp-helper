@@ -35,6 +35,9 @@ export const CSP_PRESET_GOOGLE_TAG_MANAGER_CUSTOM_JAVASCRIPT_VARIABLES = {
 /**
  * CSP directives for google tag manager preview mode
  *
+ * Note: The docs and the actual requests made by the preview mode are inconsistent. And the css file and some requests of preview mode would be blocked due to lack of CORP header.
+ * Seems that the GTM preview mode is not properly maintained by Google.
+ *
  * @see https://developers.google.com/tag-platform/security/guides/csp#preview_mode
  */
 export const CSP_PRESET_GOOGLE_TAG_MANAGER_PREVIEW_MODE = {
