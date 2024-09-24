@@ -1,0 +1,90 @@
+{
+  "name": "csp-helper",
+  "version": "0.0.0",
+  "description": "Helpers for managing Content Security Policy (CSP)",
+  "keywords": [
+    "content-security-policy",
+    "csp",
+    "merger",
+    "manager",
+    "util"
+  ],
+  "homepage": "https://github.com/meteorlxy/csp-helper#readme",
+  "bugs": {
+    "url": "git+https://github.com/meteorlxy/csp-helper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorlxy/csp-helper.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "clean": "rimraf dist",
+    "format": "prettier --write .",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint --fix . && prettier --write .",
+    "prepare": "husky",
+    "release": "pnpm release:check && bumpp",
+    "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm test",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.(js|cjs|ts)": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.!(js|cjs|ts)": "prettier --write --ignore-unknown",
+    "package.json": "sort-package-json"
+  },
+  "prettier": "@meteorlxy/prettier-config",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@meteorlxy/eslint-config": "^4.6.0",
+    "@meteorlxy/prettier-config": "^4.0.0",
+    "@meteorlxy/tsconfig": "^4.6.0",
+    "@vitest/coverage-istanbul": "^2.1.1",
+    "bumpp": "^9.5.2",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^9.11.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "sort-package-json": "^2.10.1",
+    "typescript": "^5.6.2",
+    "unbuild": "^2.0.0",
+    "vitest": "^2.1.1"
+  },
+  "packageManager": "pnpm@9.11.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}

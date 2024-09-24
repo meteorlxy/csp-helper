@@ -1,0 +1,122 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should merge Datadog presets 1`] = `
+{
+  "connect-src": Set {
+    "https://*.datadoghq.com",
+    "https://browser-intake-datadoghq.com",
+  },
+  "worker-src": Set {
+    "blob:",
+  },
+}
+`;
+
+exports[`should merge Google Ads presets 1`] = `
+{
+  "frame-src": Set {
+    "https://www.googletagmanager.com",
+    "https://td.doubleclick.net",
+    "https://bid.g.doubleclick.net",
+  },
+  "img-src": Set {
+    "https://googleads.g.doubleclick.net",
+    "https://www.google.com",
+    "https://google.com",
+  },
+  "script-src": Set {
+    "https://www.googleadservices.com",
+    "https://www.google.com",
+    "https://www.googletagmanager.com",
+    "https://googleads.g.doubleclick.net",
+  },
+}
+`;
+
+exports[`should merge Google Tag Manager presets 1`] = `
+{
+  "connect-src": Set {
+    "https://www.googletagmanager.com",
+  },
+  "font-src": Set {
+    "https://fonts.gstatic.com",
+    "data:",
+  },
+  "img-src": Set {
+    "https://www.googletagmanager.com",
+    "https://googletagmanager.com",
+    "https://ssl.gstatic.com",
+    "https://www.gstatic.com",
+  },
+  "script-src": Set {
+    "'unsafe-inline'",
+    "https://www.googletagmanager.com",
+    "'unsafe-eval'",
+    "https://googletagmanager.com",
+    "https://tagmanager.google.com",
+  },
+  "style-src": Set {
+    "https://googletagmanager.com",
+    "https://tagmanager.google.com",
+    "https://fonts.googleapis.com",
+  },
+}
+`;
+
+exports[`should merge different categories of presets 1`] = `
+{
+  "connect-src": Set {
+    "https://*.datadoghq.com",
+    "https://browser-intake-datadoghq.com",
+    "https://www.googletagmanager.com",
+    "https://*.hotjar.com",
+    "https://*.hotjar.io",
+    "wss://*.hotjar.com",
+  },
+  "font-src": Set {
+    "https://fonts.gstatic.com",
+    "data:",
+    "https://script.hotjar.com",
+  },
+  "frame-src": Set {
+    "https://www.googletagmanager.com",
+    "https://td.doubleclick.net",
+    "https://bid.g.doubleclick.net",
+  },
+  "img-src": Set {
+    "https://googleads.g.doubleclick.net",
+    "https://www.google.com",
+    "https://google.com",
+    "https://www.googletagmanager.com",
+    "https://googletagmanager.com",
+    "https://ssl.gstatic.com",
+    "https://www.gstatic.com",
+    "https://static.hotjar.com",
+    "https://script.hotjar.com",
+    "https://survey-images.hotjar.com",
+  },
+  "script-src": Set {
+    "https://www.googleadservices.com",
+    "https://www.google.com",
+    "https://www.googletagmanager.com",
+    "https://googleads.g.doubleclick.net",
+    "'unsafe-inline'",
+    "'unsafe-eval'",
+    "https://googletagmanager.com",
+    "https://tagmanager.google.com",
+    "https://static.hotjar.com",
+    "https://script.hotjar.com",
+  },
+  "style-src": Set {
+    "https://googletagmanager.com",
+    "https://tagmanager.google.com",
+    "https://fonts.googleapis.com",
+    "https://static.hotjar.com",
+    "https://script.hotjar.com",
+    "'unsafe-inline'",
+  },
+  "worker-src": Set {
+    "blob:",
+  },
+}
+`;
