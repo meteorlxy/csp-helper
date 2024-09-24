@@ -57,11 +57,11 @@
     ]
   },
   "lint-staged": {
-    "*.(js|cjs|ts)": [
+    "*.(js|ts)": [
       "eslint --fix",
       "prettier --write"
     ],
-    "*.!(js|cjs|ts)": "prettier --write --ignore-unknown",
+    "*.!(js|ts)": "prettier --write --ignore-unknown",
     "package.json": "sort-package-json"
   },
   "prettier": "@meteorlxy/prettier-config",
