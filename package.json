@@ -45,11 +45,13 @@
     "lint": "eslint . && prettier --check .",
     "lint:fix": "eslint --fix . && prettier --write .",
     "prepare": "husky",
-    "release": "pnpm release:check && bumpp",
+    "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm test",
+    "release:publish": "pnpm publish",
+    "release:version": "bumpp -r --execute=\"pnpm release:changelog\" --commit \"build: publish v%s\" --all",
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+    "test:coverage": "vitest run --coverage"
   },
   "commitlint": {
     "extends": [
