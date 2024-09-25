@@ -40,6 +40,7 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "rimraf dist",
     "format": "prettier --write .",
     "lint": "eslint . && prettier --check .",
@@ -47,7 +48,7 @@
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
     "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm test",
+    "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types && pnpm test",
     "release:publish": "pnpm publish",
     "release:version": "bumpp -r --execute=\"pnpm release:changelog\" --commit \"build: publish v%s\" --all",
     "test": "vitest run",
