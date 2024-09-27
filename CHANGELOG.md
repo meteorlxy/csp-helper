@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/meteorlxy/csp-helper/compare/v0.2.0...v0.3.0) (2024-09-27)
+
+### Features
+
+- add google identity preset ([9dd7008](https://github.com/meteorlxy/csp-helper/commit/9dd70080f982b9342d8ce3dd32c87576700852dd))
+
 # [0.2.0](https://github.com/meteorlxy/csp-helper/compare/v0.1.0...v0.2.0) (2024-09-25)
 
 ### Features
