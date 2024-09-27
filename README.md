@@ -13,6 +13,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Datadog
   - Google Ads
   - Google Analytics 4
+  - Google Identity
   - Google Tag Manager
   - Hotjar
   - Reddit
