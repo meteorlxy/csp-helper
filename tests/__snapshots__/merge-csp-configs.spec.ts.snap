@@ -27,12 +27,12 @@ exports[`should merge Google Tag Manager presets 1`] = `
 
 exports[`should merge different categories of presets 1`] = `
 {
-  "connect-src": "https://*.datadoghq.com https://browser-intake-datadoghq.com https://www.googletagmanager.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com",
+  "connect-src": "https://*.datadoghq.com https://browser-intake-datadoghq.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://accounts.google.com/gsi/ https://www.googletagmanager.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com",
   "font-src": "https://fonts.gstatic.com data: https://script.hotjar.com",
-  "frame-src": "https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net",
-  "img-src": "https://googleads.g.doubleclick.net https://www.google.com https://google.com https://www.googletagmanager.com https://googletagmanager.com https://ssl.gstatic.com https://www.gstatic.com https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com",
-  "script-src": "https://www.googleadservices.com https://www.google.com https://www.googletagmanager.com https://googleads.g.doubleclick.net 'unsafe-inline' 'unsafe-eval' https://googletagmanager.com https://tagmanager.google.com https://static.hotjar.com https://script.hotjar.com",
-  "style-src": "https://googletagmanager.com https://tagmanager.google.com https://fonts.googleapis.com https://static.hotjar.com https://script.hotjar.com 'unsafe-inline'",
+  "frame-src": "https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net https://accounts.google.com/gsi/ https://embed.reddit.com https://platform.twitter.com https://www.youtube.com https://www.youtube-nocookie.com",
+  "img-src": "https://googleads.g.doubleclick.net https://www.google.com https://google.com https://*.google-analytics.com https://*.googletagmanager.com https://www.googletagmanager.com https://googletagmanager.com https://ssl.gstatic.com https://www.gstatic.com https://static.hotjar.com https://script.hotjar.com https://survey-images.hotjar.com",
+  "script-src": "https://www.googleadservices.com https://www.google.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://*.googletagmanager.com https://accounts.google.com/gsi/client 'unsafe-inline' 'unsafe-eval' https://googletagmanager.com https://tagmanager.google.com https://static.hotjar.com https://script.hotjar.com https://embed.reddit.com https://platform.twitter.com",
+  "style-src": "https://accounts.google.com/gsi/style https://googletagmanager.com https://tagmanager.google.com https://fonts.googleapis.com https://static.hotjar.com https://script.hotjar.com 'unsafe-inline'",
   "worker-src": "blob:",
 }
 `;
