@@ -2,6 +2,7 @@
 
 [![github check](https://github.com/meteorlxy/csp-helper/workflows/check/badge.svg)](https://github.com/meteorlxy/csp-helper/actions?query=workflow%3Acheck)
 [![npm](https://badgen.net/npm/v/csp-helper)](https://www.npmjs.com/package/csp-helper)
+[![coverage](https://coveralls.io/repos/github/meteorlxy/csp-helper/badge.svg?branch=main)](https://coveralls.io/github/meteorlxy/csp-helper?branch=main)
 [![license](https://badgen.net/github/license/meteorlxy/csp-helper)](https://github.com/meteorlxy/csp-helper/blob/main/LICENSE)
 
 Helpers for creating Content Security Policy (CSP) headers.
