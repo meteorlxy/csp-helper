@@ -5,9 +5,20 @@
   "keywords": [
     "content-security-policy",
     "csp",
+    "datadog",
+    "google-ads",
+    "google-analytics",
+    "google-identity",
+    "google-tag-manager",
+    "hotjar",
     "merger",
     "manager",
-    "util"
+    "reddit",
+    "tiktok",
+    "twitter",
+    "util",
+    "x",
+    "youtube"
   ],
   "homepage": "https://github.com/meteorlxy/csp-helper#readme",
   "bugs": {
