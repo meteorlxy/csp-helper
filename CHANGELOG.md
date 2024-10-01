@@ -1,3 +1,13 @@
+# [0.4.0](https://github.com/meteorlxy/csp-helper/compare/v0.3.0...v0.4.0) (2024-10-01)
+
+### Bug Fixes
+
+- fix tiktok preset exports ([f5ce43e](https://github.com/meteorlxy/csp-helper/commit/f5ce43ed91c0524f5658bf4023612b7c38fd1af1))
+
+### Features
+
+- add vimeo preset ([cead867](https://github.com/meteorlxy/csp-helper/commit/cead8672d2ef9c83ff4c54191542a49970ea994c))
+
 # [0.3.0](https://github.com/meteorlxy/csp-helper/compare/v0.2.0...v0.3.0) (2024-09-27)
 
 ### Features
