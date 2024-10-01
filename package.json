@@ -1,6 +1,6 @@
 {
   "name": "csp-helper",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Helpers for managing Content Security Policy (CSP)",
   "keywords": [
     "content-security-policy",

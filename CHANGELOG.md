@@ -1,3 +1,9 @@
+## [0.4.1](https://github.com/meteorlxy/csp-helper/compare/v0.4.0...v0.4.1) (2024-10-01)
+
+### Bug Fixes
+
+- add connect-src and img-src for vimeo ([cd78c59](https://github.com/meteorlxy/csp-helper/commit/cd78c59e79f8954c587fd60cf99fdfbba7797eb9))
+
 # [0.4.0](https://github.com/meteorlxy/csp-helper/compare/v0.3.0...v0.4.0) (2024-10-01)
 
 ### Bug Fixes
