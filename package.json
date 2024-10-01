@@ -86,7 +86,7 @@
     "@meteorlxy/prettier-config": "^4.0.0",
     "@meteorlxy/tsconfig": "^4.6.0",
     "@vitest/coverage-istanbul": "^2.1.1",
-    "bumpp": "^9.5.2",
+    "bumpp": "^9.6.1",
     "conventional-changelog-cli": "^5.0.0",
     "eslint": "^9.11.1",
     "husky": "^9.1.6",
