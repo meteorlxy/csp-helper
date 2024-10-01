@@ -6,5 +6,6 @@ export * from './google-tag-manager';
 export * from './google-universal-analytics';
 export * from './hotjar';
 export * from './reddit';
+export * from './tiktok';
 export * from './x';
 export * from './youtube';
