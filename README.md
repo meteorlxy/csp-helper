@@ -19,6 +19,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Hotjar
   - Reddit
   - TikTok
+  - Vimeo
   - X
   - Youtube
   - ... and more

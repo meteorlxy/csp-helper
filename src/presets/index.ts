@@ -7,5 +7,6 @@ export * from './google-universal-analytics';
 export * from './hotjar';
 export * from './reddit';
 export * from './tiktok';
+export * from './vimeo';
 export * from './x';
 export * from './youtube';
