@@ -18,6 +18,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Google Identity
   - Google Tag Manager
   - Hotjar
+  - Infogram
   - Reddit
   - TikTok
   - Vimeo

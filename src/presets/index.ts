@@ -6,6 +6,7 @@ export * from './google-identity';
 export * from './google-tag-manager';
 export * from './google-universal-analytics';
 export * from './hotjar';
+export * from './infogram';
 export * from './reddit';
 export * from './tiktok';
 export * from './vimeo';
