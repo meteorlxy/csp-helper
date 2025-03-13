@@ -1,3 +1,9 @@
+# [0.6.0](https://github.com/meteorlxy/csp-helper/compare/v0.5.0...v0.6.0) (2025-03-13)
+
+### Features
+
+- add infogram preset ([5ee15bb](https://github.com/meteorlxy/csp-helper/commit/5ee15bbf920ac3b01bb39e6573ca692f3a69901b))
+
 # [0.5.0](https://github.com/meteorlxy/csp-helper/compare/v0.4.1...v0.5.0) (2025-03-13)
 
 ### Features
