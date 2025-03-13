@@ -1,3 +1,9 @@
+# [0.5.0](https://github.com/meteorlxy/csp-helper/compare/v0.4.1...v0.5.0) (2025-03-13)
+
+### Features
+
+- add google fonts preset ([66a88a3](https://github.com/meteorlxy/csp-helper/commit/66a88a39ddfb8821f1c2429051e4d7e0ea65a3dd))
+
 ## [0.4.1](https://github.com/meteorlxy/csp-helper/compare/v0.4.0...v0.4.1) (2024-10-01)
 
 ### Bug Fixes
