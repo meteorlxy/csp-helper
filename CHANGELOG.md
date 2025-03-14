@@ -1,3 +1,9 @@
+# [0.7.0](https://github.com/meteorlxy/csp-helper/compare/v0.6.0...v0.7.0) (2025-03-14)
+
+### Features
+
+- split full_tld preset for google analytics ([5f5765b](https://github.com/meteorlxy/csp-helper/commit/5f5765b17b2c50fa8aad9f9453a75d1159b20850))
+
 # [0.6.0](https://github.com/meteorlxy/csp-helper/compare/v0.5.0...v0.6.0) (2025-03-13)
 
 ### Features
