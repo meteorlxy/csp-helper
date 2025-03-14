@@ -7,6 +7,8 @@ import {
   CSP_PRESET_GOOGLE_ADS_REMARKETING,
   CSP_PRESET_GOOGLE_ADS_USER_DATA_BEACON,
   CSP_PRESET_GOOGLE_ANALYTICS_4,
+  CSP_PRESET_GOOGLE_ANALYTICS_4_GOOGLE_SIGNALS,
+  CSP_PRESET_GOOGLE_ANALYTICS_4_GOOGLE_SIGNALS_FULL_TLD,
   CSP_PRESET_GOOGLE_FONTS,
   CSP_PRESET_GOOGLE_IDENTITY,
   CSP_PRESET_GOOGLE_TAG_MANAGER_CUSTOM_JAVASCRIPT_VARIABLES,
@@ -94,6 +96,14 @@ it('should merge different categories of presets 2', () => {
     CSP_PRESET_VIMEO_EMBED,
     CSP_PRESET_X_EMBED,
     CSP_PRESET_YOUTUBE_EMBED,
+  ]);
+  expect(mergedConfigsSet).toMatchSnapshot();
+});
+
+it('should merge different categories of presets 3', () => {
+  const mergedConfigsSet = mergeCspConfigsToSet([
+    CSP_PRESET_GOOGLE_ANALYTICS_4_GOOGLE_SIGNALS,
+    CSP_PRESET_GOOGLE_ANALYTICS_4_GOOGLE_SIGNALS_FULL_TLD,
   ]);
   expect(mergedConfigsSet).toMatchSnapshot();
 });
