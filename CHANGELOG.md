@@ -1,3 +1,13 @@
+# [0.8.0](https://github.com/meteorlxy/csp-helper/compare/v0.7.0...v0.8.0) (2025-05-08)
+
+### Build System
+
+- drop node 18 ([f309435](https://github.com/meteorlxy/csp-helper/commit/f30943559db555451eac5d8c8294590d70f8c1b8))
+
+### BREAKING CHANGES
+
+- drop node 18
+
 # [0.7.0](https://github.com/meteorlxy/csp-helper/compare/v0.6.0...v0.7.0) (2025-03-14)
 
 ### Features
