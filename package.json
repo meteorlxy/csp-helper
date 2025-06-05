@@ -85,20 +85,20 @@
     "@meteorlxy/eslint-config": "^6.0.0",
     "@meteorlxy/prettier-config": "^6.0.0",
     "@meteorlxy/tsconfig": "^6.0.0",
-    "@vitest/coverage-istanbul": "^3.1.3",
-    "bumpp": "^10.1.0",
+    "@vitest/coverage-istanbul": "^3.2.1",
+    "bumpp": "^10.1.1",
     "conventional-changelog-cli": "^5.0.0",
-    "eslint": "^9.26.0",
+    "eslint": "^9.28.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.2",
+    "lint-staged": "^16.1.0",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "sort-package-json": "^3.2.1",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
-    "vitest": "^3.1.3"
+    "vitest": "^3.2.1"
   },
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.1",
   "publishConfig": {
     "access": "public"
   },
