@@ -1,3 +1,9 @@
+# [0.9.0](https://github.com/meteorlxy/csp-helper/compare/v0.8.0...v0.9.0) (2025-06-05)
+
+### Features
+
+- add podscribe preset ([2d94589](https://github.com/meteorlxy/csp-helper/commit/2d9458952c3b3f3ce38bec265d7e27c940844b0f))
+
 # [0.8.0](https://github.com/meteorlxy/csp-helper/compare/v0.7.0...v0.8.0) (2025-05-08)
 
 ### Build System
