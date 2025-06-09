@@ -1,3 +1,9 @@
+## [0.9.1](https://github.com/meteorlxy/csp-helper/compare/v0.9.0...v0.9.1) (2025-06-09)
+
+### Bug Fixes
+
+- allow youtube image cdn url ([6bcb9cb](https://github.com/meteorlxy/csp-helper/commit/6bcb9cb52c7b5120ea8ebb856c283207b738d78d))
+
 # [0.9.0](https://github.com/meteorlxy/csp-helper/compare/v0.8.0...v0.9.0) (2025-06-05)
 
 ### Features
