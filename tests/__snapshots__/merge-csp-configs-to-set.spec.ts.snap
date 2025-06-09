@@ -112,6 +112,7 @@ exports[`should merge different categories of presets 1 1`] = `
     "https://script.hotjar.com",
     "https://survey-images.hotjar.com",
     "https://i.vimeocdn.com",
+    "https://*.ytimg.com",
   },
   "script-src": Set {
     "https://www.googleadservices.com",
@@ -194,6 +195,7 @@ exports[`should merge different categories of presets 2 1`] = `
     "https://script.hotjar.com",
     "https://survey-images.hotjar.com",
     "https://i.vimeocdn.com",
+    "https://*.ytimg.com",
   },
   "script-src": Set {
     "https://www.googleadservices.com",
