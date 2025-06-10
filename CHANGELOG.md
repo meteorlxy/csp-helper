@@ -1,3 +1,13 @@
+# [0.10.0](https://github.com/meteorlxy/csp-helper/compare/v0.9.2...v0.10.0) (2025-06-10)
+
+### Features
+
+- update google-ads and google-analytics-4 presets ([ee3c935](https://github.com/meteorlxy/csp-helper/commit/ee3c935b1bf2898c91808559a88ad4af3754fa43))
+
+### BREAKING CHANGES
+
+- the CSP_PRESET_GOOGLE_ADS_CONVERSIONS and CSP_PRESET_GOOGLE_ADS_REMARKETING have been removed, use CSP_PRESET_GOOGLE_ADS instead.
+
 ## [0.9.2](https://github.com/meteorlxy/csp-helper/compare/v0.9.1...v0.9.2) (2025-06-09)
 
 ### Bug Fixes
