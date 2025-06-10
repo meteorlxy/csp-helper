@@ -14,20 +14,29 @@ exports[`should merge Datadog presets 1`] = `
 
 exports[`should merge Google Ads presets 1`] = `
 {
+  "connect-src": Set {
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
+    "https://www.google.com",
+    "https://google.com",
+  },
   "frame-src": Set {
     "https://www.googletagmanager.com",
     "https://td.doubleclick.net",
-    "https://bid.g.doubleclick.net",
   },
   "img-src": Set {
+    "https://www.googletagmanager.com",
     "https://googleads.g.doubleclick.net",
     "https://www.google.com",
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
     "https://google.com",
   },
   "script-src": Set {
     "https://www.googleadservices.com",
     "https://www.google.com",
     "https://www.googletagmanager.com",
+    "https://pagead2.googlesyndication.com",
     "https://googleads.g.doubleclick.net",
   },
 }
@@ -68,6 +77,10 @@ exports[`should merge different categories of presets 1 1`] = `
   "connect-src": Set {
     "https://*.datadoghq.com",
     "https://browser-intake-datadoghq.com",
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
+    "https://www.google.com",
+    "https://google.com",
     "https://*.google-analytics.com",
     "https://*.analytics.google.com",
     "https://*.googletagmanager.com",
@@ -87,7 +100,6 @@ exports[`should merge different categories of presets 1 1`] = `
   "frame-src": Set {
     "https://www.googletagmanager.com",
     "https://td.doubleclick.net",
-    "https://bid.g.doubleclick.net",
     "https://accounts.google.com/gsi/",
     "https://e.infogram.com",
     "https://embed.reddit.com",
@@ -98,12 +110,14 @@ exports[`should merge different categories of presets 1 1`] = `
     "https://www.youtube-nocookie.com",
   },
   "img-src": Set {
+    "https://www.googletagmanager.com",
     "https://googleads.g.doubleclick.net",
     "https://www.google.com",
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
     "https://google.com",
     "https://*.google-analytics.com",
     "https://*.googletagmanager.com",
-    "https://www.googletagmanager.com",
     "https://googletagmanager.com",
     "https://ssl.gstatic.com",
     "https://www.gstatic.com",
@@ -118,6 +132,7 @@ exports[`should merge different categories of presets 1 1`] = `
     "https://www.googleadservices.com",
     "https://www.google.com",
     "https://www.googletagmanager.com",
+    "https://pagead2.googlesyndication.com",
     "https://googleads.g.doubleclick.net",
     "https://*.googletagmanager.com",
     "https://accounts.google.com/gsi/client",
@@ -155,6 +170,10 @@ exports[`should merge different categories of presets 2 1`] = `
   "connect-src": Set {
     "https://*.datadoghq.com",
     "https://browser-intake-datadoghq.com",
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
+    "https://www.google.com",
+    "https://google.com",
     "https://*.google-analytics.com",
     "https://*.analytics.google.com",
     "https://*.googletagmanager.com",
@@ -173,7 +192,6 @@ exports[`should merge different categories of presets 2 1`] = `
   "frame-src": Set {
     "https://www.googletagmanager.com",
     "https://td.doubleclick.net",
-    "https://bid.g.doubleclick.net",
     "https://accounts.google.com/gsi/",
     "https://e.infogram.com",
     "https://embed.reddit.com",
@@ -184,12 +202,14 @@ exports[`should merge different categories of presets 2 1`] = `
     "https://www.youtube-nocookie.com",
   },
   "img-src": Set {
+    "https://www.googletagmanager.com",
     "https://googleads.g.doubleclick.net",
     "https://www.google.com",
+    "https://pagead2.googlesyndication.com",
+    "https://www.googleadservices.com",
     "https://google.com",
     "https://*.google-analytics.com",
     "https://*.googletagmanager.com",
-    "https://www.googletagmanager.com",
     "https://www.google-analytics.com",
     "https://static.hotjar.com",
     "https://script.hotjar.com",
@@ -201,6 +221,7 @@ exports[`should merge different categories of presets 2 1`] = `
     "https://www.googleadservices.com",
     "https://www.google.com",
     "https://www.googletagmanager.com",
+    "https://pagead2.googlesyndication.com",
     "https://googleads.g.doubleclick.net",
     "https://*.googletagmanager.com",
     "https://accounts.google.com/gsi/client",
@@ -233,10 +254,10 @@ exports[`should merge different categories of presets 3 1`] = `
 {
   "connect-src": Set {
     "https://*.google-analytics.com",
-    "https://*.analytics.google.com",
     "https://*.googletagmanager.com",
     "https://*.g.doubleclick.net",
     "https://*.google.com",
+    "https://pagead2.googlesyndication.com",
     "https://*.google.ad",
     "https://*.google.ae",
     "https://*.google.com.af",
@@ -426,10 +447,10 @@ exports[`should merge different categories of presets 3 1`] = `
   },
   "frame-src": Set {
     "https://td.doubleclick.net",
+    "https://www.googletagmanager.com",
   },
   "img-src": Set {
     "https://*.google-analytics.com",
-    "https://*.analytics.google.com",
     "https://*.googletagmanager.com",
     "https://*.g.doubleclick.net",
     "https://*.google.com",

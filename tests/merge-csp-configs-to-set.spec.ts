@@ -3,8 +3,7 @@ import { mergeCspConfigsToSet } from '../src/merge-csp-configs-to-set';
 import {
   CSP_PRESET_DATADOG_INTAKE_URLS,
   CSP_PRESET_DATADOG_WEB_WORKER,
-  CSP_PRESET_GOOGLE_ADS_CONVERSIONS,
-  CSP_PRESET_GOOGLE_ADS_REMARKETING,
+  CSP_PRESET_GOOGLE_ADS,
   CSP_PRESET_GOOGLE_ADS_USER_DATA_BEACON,
   CSP_PRESET_GOOGLE_ANALYTICS_4,
   CSP_PRESET_GOOGLE_ANALYTICS_4_GOOGLE_SIGNALS,
@@ -35,8 +34,7 @@ it('should merge Datadog presets', () => {
 
 it('should merge Google Ads presets', () => {
   const mergedConfigsSet = mergeCspConfigsToSet([
-    CSP_PRESET_GOOGLE_ADS_CONVERSIONS,
-    CSP_PRESET_GOOGLE_ADS_REMARKETING,
+    CSP_PRESET_GOOGLE_ADS,
     CSP_PRESET_GOOGLE_ADS_USER_DATA_BEACON,
   ]);
   expect(mergedConfigsSet).toMatchSnapshot();
@@ -56,8 +54,7 @@ it('should merge different categories of presets 1', () => {
   const mergedConfigsSet = mergeCspConfigsToSet([
     CSP_PRESET_DATADOG_INTAKE_URLS,
     CSP_PRESET_DATADOG_WEB_WORKER,
-    CSP_PRESET_GOOGLE_ADS_CONVERSIONS,
-    CSP_PRESET_GOOGLE_ADS_REMARKETING,
+    CSP_PRESET_GOOGLE_ADS,
     CSP_PRESET_GOOGLE_ADS_USER_DATA_BEACON,
     CSP_PRESET_GOOGLE_ANALYTICS_4,
     CSP_PRESET_GOOGLE_IDENTITY,
@@ -80,8 +77,7 @@ it('should merge different categories of presets 2', () => {
   const mergedConfigsSet = mergeCspConfigsToSet([
     CSP_PRESET_DATADOG_INTAKE_URLS,
     CSP_PRESET_DATADOG_WEB_WORKER,
-    CSP_PRESET_GOOGLE_ADS_CONVERSIONS,
-    CSP_PRESET_GOOGLE_ADS_REMARKETING,
+    CSP_PRESET_GOOGLE_ADS,
     CSP_PRESET_GOOGLE_ADS_USER_DATA_BEACON,
     CSP_PRESET_GOOGLE_ANALYTICS_4,
     CSP_PRESET_GOOGLE_FONTS,
