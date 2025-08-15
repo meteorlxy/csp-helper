@@ -1,3 +1,9 @@
+# [0.11.0](https://github.com/meteorlxy/csp-helper/compare/v0.10.0...v0.11.0) (2025-08-15)
+
+### Features
+
+- add sentry session replay preset ([0e02a2a](https://github.com/meteorlxy/csp-helper/commit/0e02a2a44b5d5da420b457b10616d95f430d6f32))
+
 # [0.10.0](https://github.com/meteorlxy/csp-helper/compare/v0.9.2...v0.10.0) (2025-06-10)
 
 ### Features
