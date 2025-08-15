@@ -9,6 +9,7 @@ export * from './hotjar';
 export * from './infogram';
 export * from './podscribe';
 export * from './reddit';
+export * from './sentry';
 export * from './tiktok';
 export * from './vimeo';
 export * from './x';

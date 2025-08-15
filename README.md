@@ -21,6 +21,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Infogram
   - Podscribe
   - Reddit
+  - Sentry
   - TikTok
   - Vimeo
   - X
