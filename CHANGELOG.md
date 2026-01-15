@@ -1,3 +1,9 @@
+# [0.12.0](https://github.com/meteorlxy/csp-helper/compare/v0.11.0...v0.12.0) (2026-01-15)
+
+### Features
+
+- add tiktok pixel preset ([32b773b](https://github.com/meteorlxy/csp-helper/commit/32b773b2db2fd1cb122f7ba72becd007f232af7e))
+
 # [0.11.0](https://github.com/meteorlxy/csp-helper/compare/v0.10.0...v0.11.0) (2025-08-15)
 
 ### Features
