@@ -1,4 +1,5 @@
 import { expect, it } from 'vitest';
+
 import { createCspHeader } from '../src/create-csp-header';
 import {
   CSP_PRESET_DATADOG_INTAKE_URLS,

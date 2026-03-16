@@ -1,4 +1,5 @@
 import { expect, it } from 'vitest';
+
 import { mergeCspConfigs } from '../src/merge-csp-configs';
 import {
   CSP_PRESET_DATADOG_INTAKE_URLS,
