@@ -1,3 +1,9 @@
+## [0.13.1](https://github.com/meteorlxy/csp-helper/compare/v0.13.0...v0.13.1) (2026-04-30)
+
+### Bug Fixes
+
+- add frame-src to livechat preset ([aefb3b1](https://github.com/meteorlxy/csp-helper/commit/aefb3b1bfe5e8445ff335cacb0261c83912cd044))
+
 # [0.13.0](https://github.com/meteorlxy/csp-helper/compare/v0.12.0...v0.13.0) (2026-04-30)
 
 ### Features
