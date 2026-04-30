@@ -1,3 +1,9 @@
+# [0.13.0](https://github.com/meteorlxy/csp-helper/compare/v0.12.0...v0.13.0) (2026-04-30)
+
+### Features
+
+- add livechat preset ([#1](https://github.com/meteorlxy/csp-helper/issues/1)) ([6aac26e](https://github.com/meteorlxy/csp-helper/commit/6aac26e2bc40554c1009a34d9c35d48a9233a6dc))
+
 # [0.12.0](https://github.com/meteorlxy/csp-helper/compare/v0.11.0...v0.12.0) (2026-01-15)
 
 ### Features
