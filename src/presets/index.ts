@@ -7,6 +7,7 @@ export * from './google-tag-manager';
 export * from './google-universal-analytics';
 export * from './hotjar';
 export * from './infogram';
+export * from './livechat';
 export * from './podscribe';
 export * from './reddit';
 export * from './sentry';
