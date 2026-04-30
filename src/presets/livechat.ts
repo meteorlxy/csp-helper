@@ -8,6 +8,7 @@ import type { ContentSecurityPolicyConfig } from '../types';
 export const CSP_PRESET_LIVECHAT = {
   'child-src': `https://*.livechatinc.com`,
   'connect-src': `https://*.livechatinc.com https://*.livechat-static.com https://*.livechat-files.com https://*.text.com`,
+  'frame-src': `https://*.livechatinc.com`,
   'img-src': `https://*.livechatinc.com https://*.livechat-static.com https://*.livechat-files.com https://*.files-text.com`,
   'media-src': `https://*.livechatinc.com https://*.livechat-static.com`,
   'object-src': `https://*.livechatinc.com`,
