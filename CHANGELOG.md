@@ -1,3 +1,9 @@
+# [0.14.0](https://github.com/meteorlxy/csp-helper/compare/v0.13.1...v0.14.0) (2026-06-26)
+
+### Features
+
+- update google ads preset ([ede697b](https://github.com/meteorlxy/csp-helper/commit/ede697bb769d838d4cf35979475384136607ec18))
+
 ## [0.13.1](https://github.com/meteorlxy/csp-helper/compare/v0.13.0...v0.13.1) (2026-04-30)
 
 ### Bug Fixes
