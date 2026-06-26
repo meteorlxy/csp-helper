@@ -11,8 +11,8 @@ import type { ContentSecurityPolicyConfig } from '../types';
  * @see https://developers.google.com/tag-platform/security/guides/csp#google_ads
  */
 export const CSP_PRESET_GOOGLE_ADS = {
-  'connect-src': `https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://google.com`,
-  'frame-src': `https://www.googletagmanager.com https://td.doubleclick.net`,
+  'connect-src': `https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://google.com`,
+  'frame-src': `https://www.googletagmanager.com`,
   'img-src': `https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.google.com https://pagead2.googlesyndication.com https://www.googleadservices.com https://google.com`,
   'script-src': `https://www.googleadservices.com https://www.google.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net`,
 } satisfies ContentSecurityPolicyConfig;
@@ -37,6 +37,7 @@ const GOOGLE_SUPPORTED_DOMAINS_DIRECTIVE_HOSTS_STRING =
  * @see https://developers.google.com/tag-platform/security/guides/csp#google_ads
  */
 export const CSP_PRESET_GOOGLE_ADS_FULL_TLD = {
+  'connect-src': GOOGLE_SUPPORTED_DOMAINS_DIRECTIVE_HOSTS_STRING,
   'img-src': GOOGLE_SUPPORTED_DOMAINS_DIRECTIVE_HOSTS_STRING,
 } satisfies ContentSecurityPolicyConfig;
 

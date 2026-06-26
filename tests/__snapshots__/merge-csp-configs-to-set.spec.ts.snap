@@ -17,12 +17,13 @@ exports[`should merge Google Ads presets 1`] = `
   "connect-src": Set {
     "https://pagead2.googlesyndication.com",
     "https://www.googleadservices.com",
+    "https://googleads.g.doubleclick.net",
+    "https://ad.doubleclick.net",
     "https://www.google.com",
     "https://google.com",
   },
   "frame-src": Set {
     "https://www.googletagmanager.com",
-    "https://td.doubleclick.net",
   },
   "img-src": Set {
     "https://www.googletagmanager.com",
@@ -79,6 +80,8 @@ exports[`should merge different categories of presets 1 1`] = `
     "https://browser-intake-datadoghq.com",
     "https://pagead2.googlesyndication.com",
     "https://www.googleadservices.com",
+    "https://googleads.g.doubleclick.net",
+    "https://ad.doubleclick.net",
     "https://www.google.com",
     "https://google.com",
     "https://*.google-analytics.com",
@@ -99,7 +102,6 @@ exports[`should merge different categories of presets 1 1`] = `
   },
   "frame-src": Set {
     "https://www.googletagmanager.com",
-    "https://td.doubleclick.net",
     "https://accounts.google.com/gsi/",
     "https://e.infogram.com",
     "https://embed.reddit.com",
@@ -172,6 +174,8 @@ exports[`should merge different categories of presets 2 1`] = `
     "https://browser-intake-datadoghq.com",
     "https://pagead2.googlesyndication.com",
     "https://www.googleadservices.com",
+    "https://googleads.g.doubleclick.net",
+    "https://ad.doubleclick.net",
     "https://www.google.com",
     "https://google.com",
     "https://*.google-analytics.com",
@@ -191,7 +195,6 @@ exports[`should merge different categories of presets 2 1`] = `
   },
   "frame-src": Set {
     "https://www.googletagmanager.com",
-    "https://td.doubleclick.net",
     "https://accounts.google.com/gsi/",
     "https://e.infogram.com",
     "https://embed.reddit.com",
