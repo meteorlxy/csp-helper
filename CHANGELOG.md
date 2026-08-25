@@ -1,3 +1,9 @@
+# [0.15.0](https://github.com/meteorlxy/csp-helper/compare/v0.14.0...v0.15.0) (2026-08-25)
+
+### Features
+
+- add the trade desk preset ([a92b822](https://github.com/meteorlxy/csp-helper/commit/a92b822aa694ae17dd383fc89b940e12024f7747))
+
 # [0.14.0](https://github.com/meteorlxy/csp-helper/compare/v0.13.1...v0.14.0) (2026-06-26)
 
 ### Features
