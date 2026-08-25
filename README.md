@@ -23,6 +23,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Podscribe
   - Reddit
   - Sentry
+  - The Trade Desk
   - TikTok
   - Vimeo
   - X

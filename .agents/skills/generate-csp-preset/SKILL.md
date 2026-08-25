@@ -14,6 +14,8 @@ Create a focused preset that follows the repository's current conventions and ma
 - Map each documented browser resource to its required CSP directive, such as `script-src`, `connect-src`, `frame-src`, or `img-src`. Do not add a directive merely because another tag type from the same provider uses it.
 - Keep optional modes or products out of the base preset unless they are part of the requested integration. Follow existing sibling patterns when an optional mode warrants its own preset.
 - Do not add broad allowances such as `'unsafe-inline'`, wildcards, or extra hosts when a nonce, hash, or narrower host can remain the consumer's responsibility. Explain any important boundary in the preset's JSDoc.
+- Keep preset JSDoc notes limited to CSP-specific requirements, exceptions, and scope boundaries. Do not include general integration details unless they directly explain a CSP directive or source.
+- If a required CSP directive or source is absent from the provider's authoritative documentation, explicitly state that omission in the JSDoc and explain the verified browser request, redirect, or other CSP-specific behavior that requires it. Clearly distinguish provider-documented facts from runtime findings.
 
 ## Add the preset
 

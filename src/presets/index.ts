@@ -11,6 +11,7 @@ export * from './livechat';
 export * from './podscribe';
 export * from './reddit';
 export * from './sentry';
+export * from './the-trade-desk';
 export * from './tiktok';
 export * from './vimeo';
 export * from './x';
