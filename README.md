@@ -20,6 +20,7 @@ Helpers for creating Content Security Policy (CSP) headers.
   - Hotjar
   - Infogram
   - LiveChat
+  - Microsoft Advertising
   - Podscribe
   - Reddit
   - Sentry
