@@ -2,6 +2,6 @@ allowBuilds:
   unrs-resolver: true
 
 minimumReleaseAgeExclude:
-  - '@meteorlxy/eslint-config'
   - '@meteorlxy/oxfmt-config'
+  - '@meteorlxy/oxlint-config'
   - '@meteorlxy/tsconfig'

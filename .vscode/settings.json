@@ -10,12 +10,5 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "markdown",
-    "typescript",
-    "typescriptreact"
-  ],
   "cSpell.words": ["infogram", "livechat", "podscribe", "remarketing"]
 }

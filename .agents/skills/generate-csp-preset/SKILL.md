@@ -43,5 +43,5 @@ Create a focused preset that follows the repository's current conventions and ma
 ## Verify
 
 - Review the complete diff, including the untracked preset file.
-- Run `pnpm lint`, `pnpm check-types`, `pnpm test`, and `pnpm build` unless the user has disabled verification.
+- Run `pnpm lint`, `pnpm test`, and `pnpm build` unless the user has disabled verification.
 - A static preset does not require a new test solely to restate its object literal. Add a focused test when the change introduces behavior or when current sibling presets establish that requirement.

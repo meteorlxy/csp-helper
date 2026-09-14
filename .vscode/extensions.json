@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
     "oxc.oxc-vscode",
     "kingwl.vscode-vitest-runner",
     "vitest.explorer"
