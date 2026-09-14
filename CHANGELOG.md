@@ -1,3 +1,9 @@
+# [0.16.0](https://github.com/meteorlxy/csp-helper/compare/v0.15.0...v0.16.0) (2026-09-14)
+
+### Features
+
+- add microsoft advertising uet preset ([40397cc](https://github.com/meteorlxy/csp-helper/commit/40397cc29f2e38ea0f0e80fd958fc184dbe5479d))
+
 # [0.15.0](https://github.com/meteorlxy/csp-helper/compare/v0.14.0...v0.15.0) (2026-08-25)
 
 ### Features
