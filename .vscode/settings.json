@@ -8,7 +8,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
-    "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace": false,
   },
-  "cSpell.words": ["infogram", "livechat", "podscribe", "remarketing"]
+  "cSpell.words": ["infogram", "livechat", "podscribe", "remarketing"],
 }
